@@ -44,7 +44,7 @@ public class lab02Task1 {
         boolean b1 = driver.getTitle().contains("Smile");
         String actualTitleAmazon=driver.getTitle();
         if(b1){
-            System.out.println("Amazon title contains Smile and title verification has passed.");
+            System.out.println("c");
         }
         else {
             System.out.println("Amazon title does not contains Smile and title verification has failed.");
